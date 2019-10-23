@@ -1,6 +1,5 @@
 def my_own_map(array)
 array.map { |n| n*2 }
-array
 # square = n * n
 # return square
   # end
