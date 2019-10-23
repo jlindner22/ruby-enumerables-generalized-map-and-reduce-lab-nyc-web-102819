@@ -1,6 +1,6 @@
-def my_own_map(map)
-# array.map { |n| n*2 }
-map.each {|n| n}
+def my_own_map(array)
+array.map { |n| n*2 }
+# array.each {|n| n}
 # square = n * n
 # return square
   # end
