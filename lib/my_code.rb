@@ -1,6 +1,6 @@
 def map(array)
 array.map{ |n| n*2 }
-array.each {|n|}
+#array.each {|n|}
 # square = n * n
 # return square
   # end
