@@ -1,8 +1,8 @@
 def map(array)
 array.map{ |n| n*2 }
 #array.each {|n|}
-array.map{ |n| n*n }
-# return square
+#array.map{ |n| n*n }
+#array.map{ |n| n*-1 }
   # end
 end  
 
