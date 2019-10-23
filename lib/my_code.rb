@@ -1,7 +1,7 @@
 def my_own_map(array, starting_point = 0)
   #[array].map { |n| n * n }
   answer = array.map { |n| n > 0 ? -n : -n } 
-  return answer 
+ answer 
   end
   
   
