@@ -6,7 +6,7 @@ def my_own_map(array, starting_point = 0)
   end
 end  
   
-  
+my_own_map(array)  
  #map 
 # returns array with negative values 
 #   original values (.each)
