@@ -6,8 +6,8 @@ end
 square = array.map{ |n| n*n }
 negative = array.map{ |n| n*-1 }
 
-# times_two
-# same
+times_two
+same
 # square
 # negative
 end  
