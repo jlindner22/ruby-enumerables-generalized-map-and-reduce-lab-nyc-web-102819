@@ -1,9 +1,13 @@
 def map(array)
- array.map{ |n| n*2 }
- yield
-array.each {|n|}
-#array.map{ |n| n*n }
-#array.map{ |n| n*-1 }
+times_two = array.map{ |n| n*2 }
+same = array.each {|n|}
+square = array.map{ |n| n*n }
+negative = array.map{ |n| n*-1 }
+
+times_two
+same
+square
+negative
 end  
 
   #[array].map { |n| n * n }
