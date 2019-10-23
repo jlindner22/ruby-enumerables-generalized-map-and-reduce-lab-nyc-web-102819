@@ -1,7 +1,8 @@
 def my_own_map(array, starting_point = 0)
   #[array].map { |n| n * n }
 [array].map do |n| 
-  n * -1
+ negative = [array]n * -1
+ return negative
   end
 end  
   
