@@ -1,4 +1,4 @@
-def my_own_map(array, starting_point = 0)
+def my_own_map(array)
 array.map do |n| 
  square = n * n
  return square
@@ -7,7 +7,7 @@ end
 
   #[array].map { |n| n * n }
 
-def my_own_reduce(array, starting_point = 0)
+#def my_own_reduce(array, starting_point = 0)
 
  #map 
 # returns array with negative values 
