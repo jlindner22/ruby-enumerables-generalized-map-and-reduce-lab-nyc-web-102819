@@ -1,12 +1,12 @@
 def my_own_map(array, starting_point = 0)
-  #[array].map { |n| n * n }
-[array].map do |n| 
- negative = n * -1
- return negative
+array.map do |n| 
+ square = n * n
+ return square
   end
 end  
 
-my_own_map(array)
+  #[array].map { |n| n * n }
+
 
  #map 
 # returns array with negative values 
