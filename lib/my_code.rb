@@ -7,8 +7,6 @@ square = array.map{ |n| n*n }
 negative = array.map{ |n| n*-1 }
 end  
 
-  #[array].map { |n| n * n }
-
 #def my_own_reduce(array, starting_point = 0)
 
  #map 
