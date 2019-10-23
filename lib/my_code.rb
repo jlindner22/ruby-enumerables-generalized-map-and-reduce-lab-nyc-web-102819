@@ -5,8 +5,9 @@ def my_own_map(array, starting_point = 0)
  return negative
   end
 end  
-  
-my_own_map(array)  
+
+my_own_map(array)
+
  #map 
 # returns array with negative values 
 #   original values (.each)
