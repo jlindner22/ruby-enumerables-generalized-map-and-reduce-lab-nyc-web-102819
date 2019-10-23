@@ -5,11 +5,6 @@ same = array.each do |n|
 end
 square = array.map{ |n| n*n }
 negative = array.map{ |n| n*-1 }
-
-p times_two
-p same
-# square
-# negative
 end  
 
   #[array].map { |n| n * n }
