@@ -1,12 +1,13 @@
 def my_own_map(array, starting_point = 0)
   #[array].map { |n| n * n }
-[array].map do |n * -1|
+[array].map do |n| 
+  [array]
   end
 end  
   
   
  #map 
-  #returns array with negative values 
+# returns array with negative values 
 #   original values (.each)
 #   values multipled by 2 
 #   values squared
