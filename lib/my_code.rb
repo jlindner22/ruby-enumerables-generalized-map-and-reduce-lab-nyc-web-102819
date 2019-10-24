@@ -12,7 +12,7 @@ def map(array)
 #   values multipled by 2 
 #   values squared
   
-def reduce(array, starting_point = 0)
+#def reduce(array, starting_point = 0)
 #   returns running total without starting point 
 #   returns running total with starting point
 #   returns true when all values are truthy
