@@ -12,6 +12,7 @@ def reduce(array, starting_point = 0)
     array.reduce(starting_point){|x,y| yield x,y} 
   else 
     array.reduce{|x,y| yield x,y}
+  end
 end
 #   returns running total without starting point 
 #   returns running total with starting point
