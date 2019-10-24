@@ -8,7 +8,8 @@ def map(array)
 
   
 def reduce(array, starting_point = 0)
-  
+  array.reduce(yield)
+end
 #   returns running total without starting point 
 #   returns running total with starting point
 #   returns true when all values are truthy
