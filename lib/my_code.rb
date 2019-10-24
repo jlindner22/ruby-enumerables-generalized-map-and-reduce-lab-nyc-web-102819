@@ -1,5 +1,5 @@
 def map(array)
-  array.each {|n| yield(n)}
+ return array.each {|n| yield(n)}
 end
 
 
