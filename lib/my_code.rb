@@ -1,5 +1,5 @@
 def map(array)
-yield(array)
+array.each do yield
 end
 
 
