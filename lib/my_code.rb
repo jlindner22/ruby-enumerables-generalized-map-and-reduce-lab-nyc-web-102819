@@ -1,6 +1,6 @@
 def map(array)
   new = []
- for  yield element
+ for yield element
 
 
  #map 
