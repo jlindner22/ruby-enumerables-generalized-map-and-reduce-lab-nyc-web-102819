@@ -1,7 +1,10 @@
 def map(array)
   new = []
- for yield element
-
+ for element in array 
+ new.push yield(element)
+ end
+ new
+ end
 
  #map 
 #   returns array with negative values 
