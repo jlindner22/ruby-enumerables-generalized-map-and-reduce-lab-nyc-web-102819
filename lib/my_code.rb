@@ -2,15 +2,14 @@ def map(array)
 yield(array)
 end
 
-#def reduce(array, starting_point = 0)
 
  #map 
-# returns array with negative values 
+#   returns array with negative values 
 #   original values (.each)
 #   values multipled by 2 
 #   values squared
   
-# reduce
+def reduce(array, starting_point = 0)
 #   returns running total without starting point 
 #   returns running total with starting point
 #   returns true when all values are truthy
