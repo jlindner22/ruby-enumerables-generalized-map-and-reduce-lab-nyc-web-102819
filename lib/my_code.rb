@@ -1,6 +1,7 @@
 def map(array)
 array.each do yield
 end
+end
 
 
  #map 
