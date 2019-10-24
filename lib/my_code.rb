@@ -1,6 +1,5 @@
 def map(array)
-array.each do yield
-end
+  array.each {|n| yield(n)}
 end
 
 
