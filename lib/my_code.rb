@@ -1,10 +1,10 @@
 def map(array)
-yield array.map do |n| n*2 
-end
-yield array.each do |n|
-end
-yield array.map{ |n| n*n }
-yield array.map{ |n| n*-1 }
+yield (array.map do |n| n*2 
+end)
+yield (array.each do |n|
+end)
+yield (array.map{ |n| n*n })
+yield (array.map{ |n| n*-1 })
 end  
 
 #def my_own_reduce(array, starting_point = 0)
