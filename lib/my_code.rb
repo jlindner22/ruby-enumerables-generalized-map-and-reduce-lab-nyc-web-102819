@@ -1,6 +1,6 @@
 def map(array)
- return array.each {|n| yield(n)}
-end
+  new = []
+ for  yield element
 
 
  #map 
