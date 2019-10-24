@@ -6,13 +6,9 @@ def map(array)
  new
  end
 
- #map 
-#   returns array with negative values 
-#   original values (.each)
-#   values multipled by 2 
-#   values squared
   
-#def reduce(array, starting_point = 0)
+def reduce(array, starting_point = 0)
+  
 #   returns running total without starting point 
 #   returns running total with starting point
 #   returns true when all values are truthy
@@ -21,24 +17,3 @@ def map(array)
 #   returns false when no truthy value is present
   
   
-#   def map_to_negativize(source_array)
-#   new = []
-#   i = 0
-#   while i < source_array.length do
-#     new.push( source_array[i] * -1 ) # <== Unique work
-#     i += 1
-#   end
-#   return new
-# end
-# end
-
-# def map_to_negativize(source_array)
-# count = 0
-# negative = -1
-# while count < source_array.length do
-# source_array[count] = source_array[count] * negative
-# source_array[count]
-# count += 1
-# end
-# source_array
-# end
