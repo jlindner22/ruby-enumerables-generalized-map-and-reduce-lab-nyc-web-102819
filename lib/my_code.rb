@@ -8,7 +8,7 @@ def map(array)
 
   
 def reduce(array, starting_point = 0)
-  array.reduce{yield}
+  array.reduce{|x,y| yield x,y}
 end
 #   returns running total without starting point 
 #   returns running total with starting point
