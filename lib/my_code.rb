@@ -1,5 +1,5 @@
 def map(array)
-yield
+yield(array)
 end
 
 #def reduce(array, starting_point = 0)
